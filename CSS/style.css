@@ -464,7 +464,7 @@ h2.section-title::before{
 @media screen and (max-width: 768px){
     .skills-box {
         row-gap: 3rem;
-        margin-top: 1rem;
+        margin: 1rem;
     }
 }
 
@@ -705,7 +705,7 @@ form label{
     justify-content: center;
     align-items: center;
 }
-.swiper {
+.swiper{
     width: 600px;
     height: 300px;
 }
