@@ -700,12 +700,73 @@ form label{
     padding-bottom: var(--botton-padding);
     color: white;
 }
+.footer .cols {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin:0  0 20px 0;
+}
+.footer .cols img{
+    height: 70px;
+}
+.footer .cols ul li a{
+    color: white;
+    text-transform: capitalize;
+    margin: 25px 0;
+    display: block;
+}
+.footer .cols .lists{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.footer .cols .lists ul:not(:first-child){
+    margin: 0 59px;
+
+}
+.footer .fsocial{
+    display: flex;
+    justify-content: space-around;
+}
+.footer .fsocial  a i{
+    font-size: 2rem;
+    margin: 0.4rem;
+    cursor: pointer;
+    color: white;
+}
+.footer .fsocial >div{
+    margin: 10px;
+}
 .footer .copy{
     display: flex;
     justify-content: center;
     align-items: center;
+    font-size: 14px;
 }
 .swiper{
     width: 600px;
     height: 300px;
+}
+@media (max-width:992px){
+    .footer .cols{
+        flex-direction: column;
+    }
+    .footer .cols .image{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .footer .cols .col h2{
+        display: none;
+    }
+    .footer .cols .col:not(:first-child){
+        margin: 20px 0;
+    }
+    .footer .cols .lists{
+        justify-content: center;
+    }
+    .footer .cols .lists ul {
+        margin-right: 40px;
+    }
+
 }
