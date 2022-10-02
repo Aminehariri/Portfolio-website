@@ -123,6 +123,7 @@ a{
 }
 .nav-link:hover{
     color: var(--blue);
+
 }
 .nav-link:hover:before{
     position: absolute;
@@ -553,6 +554,7 @@ h2.section-title::before{
 .service .boxes .box p{
     display: inline-block;
     padding: 10px 0;
+    color: var(--second-color);
 }
 @media(max-width:767px){
     .service .boxes{
