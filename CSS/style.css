@@ -674,12 +674,13 @@ form label{
 }
 .ccontainer{
     display: grid;
-    gap: 1rem;
+    gap: 2rem;
 }
 .ccontainer p{
     color: var(--second-color);
     text-transform: capitalize;
     font-size: 16px;
+    line-height: 1.5;
 }
 .ccontainer h4{
     font-weight: bold;
