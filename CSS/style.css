@@ -725,6 +725,9 @@ form label{
     flex-direction: row;
     justify-content: space-around;
 }
+.footer .cols .lists a:hover{
+    text-decoration: underline;
+}
 .footer .cols .lists ul:not(:first-child){
     margin: 0 59px;
 
