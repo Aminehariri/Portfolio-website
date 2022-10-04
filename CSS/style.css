@@ -53,6 +53,7 @@ a{
 }
 /*************** HEADER AND NAVBAR CODE **************/
 .header{
+    background-color: #f2f3fd;
     width: 100%;
     box-shadow: 0px 5px 15px 0px rgba(28, 0, 181, 0.3);
 }
@@ -217,6 +218,7 @@ a{
 }
 .container .landing .info p{
     line-height: 1.5;
+    font-size: 17px;
     color: var(--second-color);
 }
 .landing h2{

@@ -86,10 +86,12 @@ let nametrue=true,emailtrue=true;
 
 let name=document.querySelector('.name')
 let email=document.querySelector('.email')
+let textarea=document.querySelector(".message")
 
 
 let namenotvalid=document.querySelector('.namevalid');
 let emailnotvalid=document.querySelector('.emailvalid');
+let msgvalide=document.querySelector('.msgvalide')
 
 /*===== NAME REJEX VALIDATION CODE =====*/
 
@@ -126,6 +128,7 @@ email.addEventListener('input',function(e){
     }
     console.log(emailtrue)
 })
+
 
 
 document.onsubmit=function(e){
