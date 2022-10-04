@@ -451,6 +451,7 @@ h2.section-title::before{
     border-radius: 5px;
 }
 .skills-percsentage{
+    border-radius: 5px;
     display: block;
     background-color: var(--blue);
 }
