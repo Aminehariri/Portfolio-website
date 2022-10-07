@@ -472,6 +472,8 @@ h2.section-title::before{
     }
     .skills-box .skills-tabs , .skills-content{
         padding: 0 10px;
+        margin: 0 10px ;
+        border: 1px solid orange;
     }
 }
 
