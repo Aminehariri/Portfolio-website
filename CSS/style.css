@@ -888,5 +888,5 @@ form label{
     border-radius: 5px;
 }
 ::-webkit-scrollbar-thumb:hover{
-    background-color: var(--blue);
+    background-color: black;
 }
