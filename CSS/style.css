@@ -470,6 +470,9 @@ h2.section-title::before{
         row-gap: 3rem;
         margin: 1rem;
     }
+    .skills-box .skills-tabs , .skills-content{
+        padding: 0 10px;
+    }
 }
 
 /*************** work PAGE CODE **************/
@@ -870,7 +873,7 @@ form label{
 }
 
 
-/*************** SCROLL CODE ***************/
+/************** SCROLL CODE ***************/
 
 ::-webkit-scrollbar{
     width: 10px;

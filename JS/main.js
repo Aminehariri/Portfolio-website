@@ -159,7 +159,8 @@ sr.reveal(`.buttons,.social`,{delay:400,interval:100,origin:'bottom'})
 sr.reveal(`.skills-tabs ,.ms-service ,.left`,{origin:'left',delay:100,duration:2000})
 sr.reveal(`.skills-content ,.portfolio ,.right`,{delay:100,distance:'50px',duration:2000})
 
-// popup work code
+/*===== POPUP WORK CODE =====*/
+
 
 document.addEventListener('click',(e)=>{
     if(e.target.classList.contains("work-button")){
