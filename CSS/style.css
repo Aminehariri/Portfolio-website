@@ -470,13 +470,13 @@ h2.section-title::before{
         row-gap: 3rem;
         margin: 1rem;
     }
-    .skills-box .skills-tabs , .skills-content{
-        padding: 0 10px;
-        margin: 0 10px ;
-        border: 1px solid orange;
-    }
+    
 }
-
+.skills-box .skills-tabs , .skills-content{
+    padding: 0 10px;
+    margin: 0 10px ;
+    border: 1px solid orange;
+}
 /*************** work PAGE CODE **************/
 .work{
     background-color: var(--section-background);
