@@ -158,3 +158,23 @@ sr.reveal(`.info , .description , .landing `)
 sr.reveal(`.buttons,.social`,{delay:400,interval:100,origin:'bottom'})
 sr.reveal(`.skills-tabs ,.ms-service ,.left`,{origin:'left',delay:100,duration:2000})
 sr.reveal(`.skills-content ,.portfolio ,.right`,{delay:100,distance:'50px',duration:2000})
+
+// popup work code
+
+document.addEventListener('click',(e)=>{
+    if(e.target.classList.contains("work-button")){
+        toggleport();
+        detail(e.target.parentElement)
+    }
+})
+
+function toggleport(){
+    document.querySelector(".popup").classList.toggle("open")
+}
+document.querySelector('.popup-close').addEventListener("click",toggleport)
+
+function detail(portfolio){
+    // console.log(portfolio)
+    document.querySelector('.pp-thumbnail img').src=portfolio.querySelector(".p-img").src;
+    document.querySelector('.popup .popup-info').innerHTML= portfolio.querySelector('.project .popup-info').innerHTML;
+}

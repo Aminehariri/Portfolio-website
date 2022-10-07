@@ -520,7 +520,96 @@ h2.section-title::before{
 .projects .project span:hover{
     transform: translateX(15px);
 }
-
+.project .popup-info{
+    display: none;
+}
+/*************** work POPUP PAGE CODE **************/
+.popup{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0,0.5 );
+    z-index: var(--z-modal);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 1rem;
+    transition: .3s;
+    opacity: 0; 
+    visibility: hidden;
+}
+.popup.open{ 
+    opacity: 1;
+    visibility: visible;
+}
+.popup-inner{
+    background-color: var(--box-background);
+    width: 900px;
+    border-radius: .5rem;
+    padding: 2.5rem;
+    position: relative;
+}
+.popup-c{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+    column-gap: 3rem;
+}
+.popup-close{
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    font-size: 1.5rem;
+    color: var(--blue);
+    cursor: pointer;
+}
+.popup-img{
+    border-radius: .5rem;
+    width: 100%;
+}
+.popup-subtitle{
+    font-size: .75rem;
+    margin-bottom:5px ;
+}
+.details-title{
+    font-weight:bold ;
+    margin-bottom: .5rem;
+    color: var(--blue);
+    margin-top: 1rem;
+}
+.details-description{
+    margin-bottom: .5rem;
+}
+.home-description{
+    font-size: .8rem;
+    color: var(--second-color);
+}
+.detail-info li{
+    margin-bottom: .7rem;
+    text-transform: capitalize;
+    font-size: 1rem;
+}
+.detail-info li:last-child{
+    margin-bottom: 0;
+}
+.detail-info li span{
+    font-weight: normal;
+}
+.detail-info li a {
+    text-transform: lowercase;
+    color: var(--blue);
+}
+@media screen and (max-width: 768px){
+.popup-inner {
+    width: 420px;
+    padding: 2.8rem 1.5rem 2.5rem;
+}
+.popup-c {
+    grid-template-columns: 1fr;
+}
+}
 /*************** SERVICES PAGE CODE **************/
 .service{
     background-color: var(--box-background);
