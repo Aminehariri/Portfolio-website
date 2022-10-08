@@ -367,6 +367,7 @@ h2.section-title::before{
 }
 
 /*************** SKILLS PAGE CODE **************/
+
 .skills{
     background-color: var(--section-background);
     padding-bottom: var(--botton-padding);
@@ -683,9 +684,7 @@ h2.section-title::before{
 }
 
 
-
 /*************** CONTACT PAGE CODE **************/
-
 
 .contact{    
     background-color: #f2f3fd;
