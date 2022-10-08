@@ -519,13 +519,17 @@ h2.section-title::before{
     column-gap: 0.75rem;
     cursor: pointer;
     transition: var(--transition);
+    width: fit-content;
 }
-.projects .project span:hover{
+.work-button:hover{
+    display: block;
     transform: translateX(15px);
 }
 .project .popup-info{
     display: none;
 }
+
+
 /*************** work POPUP PAGE CODE **************/
 .popup{
     position: fixed;
