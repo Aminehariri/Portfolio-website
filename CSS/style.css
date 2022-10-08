@@ -488,7 +488,7 @@ h2.section-title::before{
 }
 @media screen and (max-width: 1200px){
     .projects {
-        grid-template-columns: repeat(2, 330px);
+        grid-template-columns: repeat(2, 350px);
         column-gap: 2.5rem;
     }
     }
@@ -621,11 +621,18 @@ h2.section-title::before{
 .service{
     background-color: var(--box-background);
     padding-bottom: var(--botton-padding);
+
 }
 .service .boxes{
     display: grid;
-    grid-template-columns: repeat(auto-fill,minmax(300px,1fr));
     gap: 2rem;
+    grid-template-columns: repeat(2,350px);
+    justify-content: center;
+}
+@media(max-width:767px){
+    .service .boxes{
+        grid-template-columns: 330px;
+    }
 }
 .service .boxes .box{
     padding: 10px;
@@ -633,9 +640,23 @@ h2.section-title::before{
     box-shadow: 0 2px 4px rgb(0 0 0 / 7%);
     border-radius: 5px;
     transition: var(--transition);
+    cursor: pointer;
 }
 .service .boxes .box:hover{
-    transform: translateY(-5px);
+    transition: var(--transition);
+    background-color: var(--blue);
+}
+.service .boxes .box:hover .infop {
+    color: white;
+    transition: var(--transition);
+}
+.service .boxes .box:hover .infoi{
+    color: white;
+    transition: var(--transition);
+}
+.service .boxes .box:hover .infoh3{
+    color: white;
+    transition: var(--transition);
 }
 .service .boxes .box h3{
     padding: 5px 0;
