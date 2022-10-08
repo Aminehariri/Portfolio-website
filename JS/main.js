@@ -93,6 +93,8 @@ let namenotvalid=document.querySelector('.namevalid');
 let emailnotvalid=document.querySelector('.emailvalid');
 let msgvalide=document.querySelector('.msgvalide')
 
+
+
 /*===== NAME REJEX VALIDATION CODE =====*/
 
 
@@ -113,6 +115,7 @@ name.addEventListener('input',function(e){
 
 
 /*===== EMAIL REJEX VALIDATION CODE =====*/
+
 
 email.addEventListener('input',function(e){
     var emailpatern=/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/
@@ -139,9 +142,6 @@ document.onsubmit=function(e){
         e.preventDefault()
     }
 }
-
-/*===== SEND CONTACT FORM WITH JS CODE =====*/
-
 
 
 
