@@ -682,6 +682,8 @@ h2.section-title::before{
     }
 }
 
+
+
 /*************** CONTACT PAGE CODE **************/
 .contact{    
     background-color: #f2f3fd;
@@ -814,6 +816,7 @@ form label{
     margin: 0 5px;
     display: none;
 }
+
 
 
 /*************** FOOTER PAGE CODE **************/
