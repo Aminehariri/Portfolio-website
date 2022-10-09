@@ -230,7 +230,7 @@ a{
 }
 @media(max-width:920px){
     .container .landing .info h1{
-        font-size: 1.5rem;
+        font-size: 2rem;
         padding-top: 1rem;
     }
 }
@@ -274,15 +274,15 @@ a{
 }
 .social{
     display: flex;
-    justify-content: end;
+    justify-content: space-around;
     gap: 1rem;
 }
 .social .box{
     padding: 5px;
 }
 .social .box img{
-    width: 25px;
-    height: 25px;
+    width: 35px;
+    height: 35px;
 }
 .social .box:last-child{
     margin-right: 1rem;
@@ -303,9 +303,6 @@ a{
     }
 }
 @media(max-width:767px){
-    .social{
-        display: none;
-    }
     .home{
         height: auto;
     }
@@ -314,6 +311,10 @@ a{
     }
     .aboutmebtn a{
         font-size: 15px;
+    }
+    .social .box img{
+        width: 30px;
+        height: 30px;
     }
 }
 @media (min-width:1020px){
